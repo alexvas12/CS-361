@@ -50,7 +50,7 @@ public class DemoEmployee {
 		// TODO To complete
 		// This instruction compiles / does not compile = IT DOES COMPILE
 		// This instruction returns a ClassCastException at run time
-		// because the casting is not correctly since emp1 is not an instance of the PartTimeEmployee class, but an instance of the regular Employee class.
+		// because the casting is not correctly done. Since emp1 is not an instance of the PartTimeEmployee class, but an instance of the regular Employee class, it will not run in the intended way.
 
 		// Downcasting 2
 		// Requires the use of intanceof to avoid a run time cast exception
