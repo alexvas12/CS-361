@@ -59,8 +59,7 @@ public class MyStack<T> {
 		MyStack<Integer> ints = new MyStack<Integer>();
 		ints.push(1);
 		ints.push(2);
-		System.out.println(ints.toString());
-		System.out.println("The popped node from the stack is: " + ints.pop());
+		ints.pop();
 		ints.push(5);
 		
 		// TODO To complete
