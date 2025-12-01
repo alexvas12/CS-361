@@ -18,7 +18,7 @@ public class Fibonacci{
         String input = scnr.nextLine();
         try
             {
-                int n = Integer.ParseInt(input);
+                int n = Integer.parseInt(input);
                 
                 if(n < 0 || n > 45){
                     System.out.println("Number must be within the range of 0....45");
@@ -33,3 +33,4 @@ public class Fibonacci{
             }
     }
 }
+
